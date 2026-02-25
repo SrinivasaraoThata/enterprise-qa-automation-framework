@@ -1,0 +1,11 @@
+browser: chrome
+implicit_wait: 10
+explicit_wait: 20
+
+urls:
+  base_url: "https://opensource-demo.orangehrmlive.com"
+  api_base_url: "https://reqres.in"
+
+credentials:
+  username: "Admin"
+  password: "admin123"
