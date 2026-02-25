@@ -26,5 +26,5 @@ class TestLogin:
     def test_empty_credentials(self, driver):
         login_page = LoginPage(driver)
         login_page.login("", "")
-        error = login_page.get_error_message()
+        error = login_page.get_field_error_message()
         assert "Required" in error, "Error message should appear for empty credentials"
